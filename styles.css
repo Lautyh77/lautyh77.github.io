@@ -1,0 +1,58 @@
+a{
+    text-decoration: none;
+}
+
+.text{
+    display: inline-block;
+}
+
+.parag{
+    line-height: 1.8em;
+    font-weight: 200
+}
+
+.title{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.table th, td{
+    border: solid 1px black;
+    padding: 1em;
+    text-align: left;
+}
+
+.container{
+    background-image: linear-gradient(to top, #fc4a1a 0%, #F2A922 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    
+
+}
+
+.contain{
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table tr:nth-child(even){
+    background-color: #f3e5f5;
+}
+
+.fa-star{
+    color:#ffc400
+}
