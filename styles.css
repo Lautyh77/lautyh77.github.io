@@ -1,8 +1,10 @@
-import 'animate.css';
-
 
 a{
     text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.7;
 }
 
 .text{
@@ -11,12 +13,13 @@ a{
 
 .parag{
     line-height: 1.8em;
-    font-weight: 200
+    font-weight: 200;
 }
 
 .title{
     text-transform: uppercase;
     text-decoration: underline;
+    text-align: center;
 }
 
 .table th, td{
@@ -45,8 +48,17 @@ a{
     border-radius: 10px;
     font-family: 'Lobster', cursive;
     position: relative;
-    text-align: center;
     box-shadow: 10px 3px 5px rgba(0,0,0,0.16);
+    padding: 1.8em;
+}
+
+.position{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #F2A922;
+    color: white;
+    border-radius: 4px;
+    margin-right: 0.5em;
 }
 
 .table{
@@ -93,9 +105,28 @@ a{
     font-family: 'Lobster', cursive;
     position: relative;
     text-align: center;
+    padding: 1em;
 }
 
 .title-item{
     border-bottom: #fc4a1a solid 2px;
-    padding-bottom: 1em
+    padding-bottom: 1em;
 }
+
+.address{
+    font-weight: bold;
+    color: #fc4a1a;
+    font-size: 1.2em;
+}
+
+
+.main-image{
+    margin-right: 1em;
+    float: left;
+    height: 250px;
+}
+
+.parag{
+    display: flex;
+}
+
