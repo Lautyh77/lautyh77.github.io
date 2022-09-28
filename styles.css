@@ -7,6 +7,10 @@ a:hover{
     opacity: 0.7;
 }
 
+img{
+    max-width: 100%;
+}
+
 .text{
     display: inline-block;
 }
@@ -134,7 +138,28 @@ a:hover{
 }
 
 @media (min-height:550px){
-    .content{
-        height: 500px;
+    .contain{
+        height: 80vh;
+        width: 90vh;
+    }
+    td{
+        display: block;
+        width: 100%;
+
+    }
+    th{
+        display: none;
+    }
+    td:nth-of-type(1){
+        font-size: 1.5em ;
+        font-weight: bold;
+        color:#fc4a1a
     }
 }
+
+ @media (max-width:600px){
+ .contain{
+    padding: 0.8em;
+    }
+}
+
